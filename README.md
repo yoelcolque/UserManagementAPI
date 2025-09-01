@@ -42,8 +42,8 @@ dotnet run
 
 ## API
 API:
-http://localhost:5039
+http://localhost:<IP_SEE_TERMINAL>
 
 API tests at:
-http://localhost:5039/swagger
+http://localhost:<IP_SEE_TERMINAL>/swagger
 
