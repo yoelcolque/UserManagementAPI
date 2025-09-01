@@ -1,51 +1,49 @@
 # User Management API
 
-API con fines educativos para gestión de usuarios desarrollada en **C# con ASP.NET Core**.  
-Incluye CRUD completo, validaciones, y middleware de logging y manejo de errores.
+Educational API for user management developed in C# with ASP.NET Core.
+Includes full CRUD, validation, and logging and error handling middleware.
 
 ---
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - .NET 7 / ASP.NET Core Web API
 - C#
-- Swagger para documentación interactiva
+- Swagger for interactive documentation
 
-## Endpoints disponibles
+## Available Endpoints
 
-| Método | Ruta                | Descripción                       |
-|--------|-------------------|-----------------------------------|
-| GET    | /api/Users        | Listar todos los usuarios         |
-| GET    | /api/Users/{id}   | Obtener usuario por ID            |
-| POST   | /api/Users        | Crear nuevo usuario               |
-| PUT    | /api/Users/{id}   | Actualizar usuario existente      |
-| DELETE | /api/Users/{id}   | Eliminar usuario                  |
-
+| Method | Path | Description |
+|--------|-------------------|----------------------------------|
+| GET | /api/Users | List all users |
+| GET | /api/Users/{id} | Get user by ID |
+| POST | /api/Users | Create new user |
+| PUT | /api/Users/{id} | Update existing user |
+| DELETE | /api/Users/{id} | Delete user |
 
 ## Middleware
 
-LoggingMiddleware: registra en consola cada request y response con duración
+LoggingMiddleware: Logs each request and response to the console with a duration.
 
-ErrorHandlingMiddleware: captura errores globales y devuelve JSON con mensaje de error
+ErrorHandlingMiddleware: Captures global errors and returns JSON with an error message.
 
-
-## Ejecutar el proyecto
-1. Clonar repositorio.
+## Run the project
+1. Clone the repository.
 ```bash
-git clone <URL-del-repositorio>
+git clone <repository-URL>
 cd UserManagementAPI
 ```
-2.Ejecutar programa.
+2. Run the program.
 ```bash
 dotnet restore
 dotnet build
 dotnet run
 ```
 
-## API 
+## API
 API:
 http://localhost:5039
 
-
-Pruebas de la API en: 
+API tests at:
 http://localhost:5039/swagger
+
